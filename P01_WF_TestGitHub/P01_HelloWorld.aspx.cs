@@ -18,7 +18,7 @@ namespace P01_WF_TestGitHub
         {
             if (txtName.Text.Length > 0)
             {
-                lblResult.Text = "Your Name is: " + txtName.Text;
+                lblResult.Text = "Your Name is: " + txtName.Text + " 1";
                 txtName.Text = string.Empty;
                 txtName.Focus();
             }
